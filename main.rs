@@ -638,12 +638,10 @@ fn main() {
     }
 
     //This the size of each interval that should appear.
-    let goodintervalue = peakpoint / intervals as f32;
+    let _goodintervalue = peakpoint / intervals as f32;
 
-    println!(
-        "scaleval: {}  \nintervals: {} \ngoodintervalue {}",
-        scalemod, intervals, goodintervalue
-    );
+    //println!("scaleval: {}  \nintervals: {} \ngoodintervalue {}", scalemod, intervals, _goodintervalue);
+
     /*
     //FOR TESTING, USE A SEPERATE ARRAY FOR EACH COLOR RENDER
     //CONSIDER LIMITING, SCHEMES MIGHT BE USEFUL.
