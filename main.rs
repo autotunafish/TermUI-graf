@@ -599,11 +599,11 @@ fn main() {
         //THIS MAY NOT BE NECESSARY AS ANY 0.0 INDEX VALUES WILL BE IGNORED
         //THE FUNCTIONS ARE USING arrayofpoints INSTEAD OF lhalfarray!
         let datasplit: usize = _datacounter as usize;
-        let (lhalfarray, _) = arrayofpoints.split_at(datasplit);
+        let (_lhalfarray, _) = arrayofpoints.split_at(datasplit);
 
         //FOR TESTING!
         //Print it all.
-        println!("goodxval {} \n_goodyval {} \ngoodcval {} \n_gooddpoint{}\narrgeebee {:?}\nlhalfarray {:?} ", _goodxval, _goodyval, goodcval, _gooddpoint, arrgeebee, lhalfarray);
+        //println!("goodxval {} \n_goodyval {} \ngoodcval {} \n_gooddpoint{}\narrgeebee {:?}\nlhalfarray {:?} ", _goodxval, _goodyval, goodcval, _gooddpoint, arrgeebee, _lhalfarray);
 
         break 'outer;
     }
