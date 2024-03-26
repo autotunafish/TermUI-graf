@@ -626,6 +626,9 @@ fn main() {
     //FIRSTLY THE BACKGROUND GRID THEN A X2, X3, X4... TO X7!? THATS A LOT BUT MIGHT BE NICE FOR A WEEKLY-GRAGH,
     //THIS BASIC VERSION YOUR LOOKING AT IS A 1X COLOR VERSION W/ NO BACKGROUND ;( BABY STEPS! ITS A START, I GUESS
 
+    //This just adds a line for spacing.
+    println!();
+
     //scalemod is evaluated to determine whether another interval should be added.
     let scalemod = _goodyvalnum % 8;
 
