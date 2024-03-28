@@ -1,5 +1,6 @@
 # TermUI-graf
 A simple interface for displaying terminal graphs with the 'textplots' crate.
+Use a Mono based font.
 The terminal will prompt the user for the following input: 
 - selecting a single graph type,
 - the X and Y plot display dimensions (measured in dpi, I think),
